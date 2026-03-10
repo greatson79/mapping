@@ -1,5 +1,5 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 import type { CreateReviewRequest, CreateReviewResponse } from './schema';
 
 const BCRYPT_SALT_ROUNDS = 10;
